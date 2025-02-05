@@ -15,7 +15,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <h1>Multi-Product App</h1>
+      <h1>Social Media App</h1>
       {status === "loading" && <p>Loading...</p>}
       {status === "failed" && <p>Error fetching posts</p>}
       {status === "succeeded" && (
